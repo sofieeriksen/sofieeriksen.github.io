@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
+
+        <nav class="sticky">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="media.html">Media</a>
+        </nav>
+      
         <title>My first assignment</title>
     </head>
+
+
+     <main>
 
     <body>
         <h1>My first web design assignment</h1>
         <h2>HTML assignment I</h2>
         <p>This website will contain the <b>basics</b> that I have so far learned about coding in HTML</p>
+
+     <div class="box" id="anim">
         <p>There is a list of some of the HTML elements that i will be using:</p>
         <ul>
             <li>Basic HTML</li>
@@ -15,16 +28,19 @@
             <li>Formatting</li>
             <li>Links and Lists</li>    
         </ul>
+    </div>
 
+    <div class="text">
         <p>I am taking this class to learn the basics of web design such as creating a website in different ways.</p>
         <p>HTLM is the current coding language that I am currently using at is it considered the <q>back bone</q> of the web.</p>
-        <p>I like learning new things and i think coding is an <strong>excellent</strong> skill to have.</p> <!--This is marked as strong because i want to emphazise it as being important-->
+        <p>I like learning new things and i think coding is an <strong>excellent</strong> skill to have.</p> <!-- This is marked as strong because i want to emphazise it as being important-->
+    </div>
 
         <img src="coding.jpg" alt="coding" width="40%">
 
-        <br>
 
-        <p>At BSU I am taking <em>five</em> classes:</p> <!--i used formatting to emphazise the number five-->
+    <div class="list">
+        <p>At BSU I am taking <em>five</em> classes:</p> <!-- i used formatting to emphazise the number five-->
         <ol>
             <li>Web design</li>
             <li>Gender in Communication</li>
@@ -32,59 +48,95 @@
             <li>Media Literacy in the digital age</li>
             <li>The arbiter</li>
         </ol>
+    </div>
  
- 
-
+    <div>
         <p>Currently I am in Boise because I am doing a semester of exchange at BSU. The following link will show some of the things to do in Boise.</p>
 
-       <a href="https://youtu.be/IMOJhe-O9BU">Click here to watch the video</a>
+       <a class="pseudo" href="https://youtu.be/IMOJhe-O9BU">Click here to watch the video</a>
 
+       <div id="div1">
        <p>When scrolling through my website you can click here to listen to some music:</p>
        <audio controls>
         <source src="music.mp3">
        </audio>
+    </div>
 
+    <div class="absolute">
        <p>I <u>really hope</u> to get to try river rafting here in Boise even though I am <em>not</em> here during summer!</p>
        
-       <p>I  want to go travel to some of the national parks. Maybe Yellow Stone National Park which looks <i>very</i> beautiful:</p>
-       <img src="nature.jpg" width="40%">
+       <p>I  want to go travel to some of the national parks. Maybe Yellow Stone National Park which looks <i>very</i> beautiful</p>
+    </div>
 
+    
+       <div id="image">
+       <img src="nature.jpg" width="40%">
+    </div>
+
+    <div class="river">
        <p> Another thing i want to try is to river raft with <q>Cascade Raft and Kayak</q> and their website can be found through the link below:</p>
        <a href="https://www.cascaderaft.com/">Here</a>
- 
+     </div>
+
+       <p>
         <video controls> <!--Ideally this video would not be this big but the width attribute did not make it smaller-->
         <source src="river.mp4">
        </video>
-
- 
-
-
-    
-
-
-        
-
-    
-
-        
-
-        
+     </p>
+    </section>
+    </main>
 
 
 
+<!--
+      
+<button onclick="window.location.href='https://www.espn.com/';">ESPN</button>
 
+       <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Last Name, First Name">
+        <input type="submit" value="Submit">
+       </form>
 
+       
+       <p>
+        <form>
+            <label>Select your option</label>
+            <input type="radio" id="dog" name="pets" value="dog">
+            <label for="dog">Dog</label>
 
+            <input type="radio" id="cat" name="pets" value="cat">
+            <label for="cat">Cat</label>
+            
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <p>
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Media Writing</td>
+                <td>10:30am</td>
+            </tr>
+            <tr>
+                <td>Web design</td>
+                <td>1:30pm</td>
+            </tr>
+
+        </table>
+
+    </p>
 
     </body>
 
 
 </html>
 
-
-
-
-
+-->
 
 <!--
 <html lang="en">
@@ -166,11 +218,12 @@
 </video>
 </p>
 
+-->
 
 
 
 
-
+<!--
 
 <h1>Hello World!</h1>
 <h2>This is a second headline</h2>
@@ -182,4 +235,5 @@
 
 </body>
 </html>
--->
+--> 
+

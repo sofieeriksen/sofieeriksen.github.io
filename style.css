@@ -1,0 +1,195 @@
+
+
+/*5 elements with 10 CSS declarations */
+
+nav {
+    padding: 3px;
+    background-color: rgb(250, 241, 235);
+    border: 1px solid gray;
+}
+
+h1{
+    color:rgb(143, 196, 240);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: dotted;
+    border-color: rgb(111, 167, 218);
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+body{
+    background-color: rgb(229, 242, 244);
+   
+}
+
+
+
+/* 2 id's, 2 classes and 2 pseudo class*/
+
+#div1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+.text{
+    color: rgb(57, 172, 214);
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.list{
+    color: blue;
+    font-style: inherit;
+    margin: 50px;
+}
+
+
+a.pseudo:hover {
+    color:red;
+}
+
+
+/*3 combined selectors */
+
+#div1 p{
+   color: green;
+}
+
+.river p{
+    background-color: blanchedalmond;
+}
+
+.list p {
+    color: brown;
+}
+
+
+/*box model*/
+.box{
+    background-color: rgba(202, 202, 202, 0.906);
+    width: 300px;
+    border: 15px solid rgb(193, 220, 177);
+    padding: 30px;
+    margin: 30px;
+}
+
+/* CSS animation */
+#anim{
+    animation-name: colorful;
+    animation-duration: 3s;
+}
+
+@keyframes colorful{
+0% {
+    background-color: white;
+}
+50% {
+    background-color: rgba(202, 202, 202, 0.906);
+}
+100%{
+    background-color: antiquewhite;
+}
+}
+
+
+/* position */
+div.absolute {
+    position:absolute;
+    left:700px;
+    right: 0px;
+    top: 1400px;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+
+/*
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: rgb(250, 241, 235);
+    border: 1px solid gray;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.position {
+    position:absolute;
+    left: 500px;
+    right: 200px;
+    top: 200px;
+
+}
+.box {
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid yellowgreen;
+    padding: 50px;
+    margin: 50px;
+}
+
+p {
+    background-color: yellowgreen;
+    color: whitesmoke;
+    margin: 100px;
+}
+
+div.pseudo:hover {
+    color:red;
+}
+
+a.pseudo2:hover {
+    color:green;
+}
+
+a.pseudo2:visited {
+    color:yellow;
+}
+
+a.psedudo2:active {
+    color:blue;
+}
+
+div{
+    background: red;
+    background: red;
+   display: inline-block;
+
+}
+
+
+span{
+    background: green;
+    height: 50px;
+    width: 400px;
+    display: block;
+}
+
+*/
