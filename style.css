@@ -114,9 +114,12 @@ a.pseudo:hover {
 /* position */
 div.absolute {
     position:absolute;
-    left:700px;
+    left: 1400px;
     right: 0px;
-    top: 1400px;
+    top: 1800px;
+    background-color: bisque;
+    border: 3px solid black;
+    width: 650px;
 }
 
 nav.sticky {
